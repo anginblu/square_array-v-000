@@ -4,6 +4,7 @@ def square_array(array)
     array.each do |number|
         array << number ** 2
         counter -= 1
+        if counter == 0
     end
   end
 end
