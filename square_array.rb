@@ -1,9 +1,8 @@
 def square_array(array)
   counter = array.size
-    array.each do |number|
+      array.each do |number|
         array << number ** 2
-        until counter == 0
-          counter -= 1
+      end
         
     end
   end
