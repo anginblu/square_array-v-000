@@ -1,6 +1,7 @@
 def square_array(array)
+  count = array.size
   array.each do |number|
-    number = number ** 2
+    array number ** 2
   end
   array = array_new
 end
