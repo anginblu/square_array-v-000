@@ -9,4 +9,5 @@ def square_array(array)
         end
     end
     counter = array.size / 2
+    print counter
 end
