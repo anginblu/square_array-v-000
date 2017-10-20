@@ -4,7 +4,7 @@ def square_array(array)
         array << number ** 2
         counter -= 1
         if counter == 0
-          terminate
+          break
         end
     end
     counter = array.size / 2
