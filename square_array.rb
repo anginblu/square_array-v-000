@@ -11,3 +11,5 @@ def square_array(array)
     counter = array.size / 2
     print counter
 end
+
+square_array ([1, 2, 3])
