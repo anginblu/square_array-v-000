@@ -3,5 +3,6 @@ def square_array(array)
   counter = array.size - 1
     array.each do |number|
           array << number ** 2
+          counter -= 1
     end
 end
