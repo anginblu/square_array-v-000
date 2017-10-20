@@ -1,7 +1,7 @@
 def square_array(array)
-  count = array.size
   array.each do |number|
-    array number ** 2
+    index = array.index(number)
+    array(index) = number ** 2
   end
   array = array_new
 end
