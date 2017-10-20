@@ -3,5 +3,4 @@ def square_array(array)
     index = array.index(number)
     array[index] = number ** 2
   end
-  array = array_new
 end
